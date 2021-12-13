@@ -1,0 +1,30 @@
+body {
+    background-color: greenyellow;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: darkseagreen;
+    font-size: 25px;
+    margin-right: 7px;
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+}
+
+
+@media (max-width: 900px) {
+    div {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 900px) {
+    div {
+        flex-direction: column;
+    }
+    button {
+        margin-bottom: 10px;
+    }
+}
